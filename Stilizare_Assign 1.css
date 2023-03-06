@@ -1,0 +1,19 @@
+a[href^="https://www.google.com"] { 
+    color: green; 
+   }
+a[href^="https://www.link-group.eu"] { 
+    color: red; 
+   }
+#second-div p:nth-of-type(2n+1){
+    color:red;
+}
+#second-div p:nth-of-type(2n+2){
+    color: blue;
+}
+#first-div > p::before {
+    content: "Remember this - ";
+    color: yellow;
+}
+p:nth-of-type(3):hover{
+    font-style: italic;
+}
